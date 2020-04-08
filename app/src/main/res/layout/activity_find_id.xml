@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_6"
+    tools:context=".Find_idActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/bmhanna_11yrs_ttf"
+            android:gravity="center"
+            android:text="아이디 찾기"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="이름"
+            android:textSize="20sp"
+            android:fontFamily="@font/bmhanna_11yrs_ttf"
+            android:layout_marginLeft="25dp"
+            />
+
+        <EditText
+            android:id="@+id/input_name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="이름을 입력해주세요"
+            android:fontFamily="@font/bmhanna_11yrs_ttf"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이메일"
+            android:textSize="20sp"
+            android:fontFamily="@font/bmhanna_11yrs_ttf"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="25dp"
+            />
+
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="@font/bmhanna_11yrs_ttf"
+            android:hint="이메일을 입력해주세요"
+            android:inputType="textEmailAddress" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="핸드폰 번호"
+            android:textSize="20sp"
+            android:fontFamily="@font/bmhanna_11yrs_ttf"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="25dp"
+            />
+
+
+        <EditText
+            android:id="@+id/input_phone"
+            android:inputType="phone"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="@font/bmhanna_11yrs_ttf"
+            android:hint="핸드폰 번호를 입력해주세요" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:id="@+id/id_cancel"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_weight="1"
+            android:alpha="0.4"
+            android:background="@drawable/button_background2"
+            android:fontFamily="@font/bmhanna_11yrs_ttf"
+            android:text="취소" />
+
+        <Button
+            android:id="@+id/id_ok"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="찾기"
+            android:background="@drawable/button_background2"
+            android:fontFamily="@font/bmhanna_11yrs_ttf"
+            android:alpha="0.4"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
